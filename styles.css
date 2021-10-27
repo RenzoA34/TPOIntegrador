@@ -183,6 +183,9 @@
         font-family: 'Suez One', serif;
         font-size  : 30px;
     }
+    h4{
+        font-family: 'Suez One', serif;
+    }
 
     footer {
         display         : flex;
@@ -321,6 +324,9 @@
         text-align : center;
         font-family: 'Suez One', serif;
         font-size  : 40px;
+    }
+    h4{
+        font-family: 'Suez One', serif;
     }
 
     .map_container {
@@ -618,6 +624,9 @@
         text-align : center;
         font-family: 'Suez One', serif;
         font-size  : 50px;
+    }
+    h4{
+        font-family: 'Suez One', serif;
     }
 
     .iframe_map {
