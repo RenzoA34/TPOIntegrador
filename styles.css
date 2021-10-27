@@ -181,6 +181,7 @@
     h2 {
         text-align: center;
         font-family: 'Rampart One', cursive;
+        font-size: 50px;
     }
 
     footer {
@@ -319,6 +320,7 @@
     h2 {
         text-align: center;
         font-family: 'Rampart One', cursive;
+        font-size: 50px;
     }
 
     .map_container {
@@ -614,6 +616,7 @@
     h2 {
         text-align: center;
         font-family: 'Rampart One', cursive;
+        font-size: 50px;
     }
 
     .iframe_map {
