@@ -317,8 +317,8 @@
     }
 
     h2 {
-
         text-align: center;
+        font-family: 'Rampart One', cursive;
     }
 
     .map_container {
@@ -610,6 +610,10 @@
 
     .button_form:hover {
         background: #ffe259;
+    }
+    h2 {
+        text-align: center;
+        font-family: 'Rampart One', cursive;
     }
 
     .iframe_map {
