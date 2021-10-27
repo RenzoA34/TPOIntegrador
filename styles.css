@@ -183,7 +183,8 @@
         font-family: 'Suez One', serif;
         font-size  : 30px;
     }
-    h4{
+
+    #h4_interiores {
         font-family: 'Suez One', serif;
     }
 
@@ -325,7 +326,8 @@
         font-family: 'Suez One', serif;
         font-size  : 40px;
     }
-    h4{
+
+    #h4_interiores {
         font-family: 'Suez One', serif;
     }
 
@@ -625,7 +627,8 @@
         font-family: 'Suez One', serif;
         font-size  : 50px;
     }
-    h4{
+
+    #h4_interiores {
         font-family: 'Suez One', serif;
     }
 
