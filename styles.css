@@ -179,9 +179,9 @@
     }
 
     h2 {
-        text-align: center;
-        font-family: 'Rampart One', cursive;
-        font-size: 50px;
+        text-align : center;
+        font-family: 'Suez One', serif;
+        font-size  : 30px;
     }
 
     footer {
@@ -318,9 +318,9 @@
     }
 
     h2 {
-        text-align: center;
-        font-family: 'Rampart One', cursive;
-        font-size: 50px;
+        text-align : center;
+        font-family: 'Suez One', serif;
+        font-size  : 40px;
     }
 
     .map_container {
@@ -613,10 +613,11 @@
     .button_form:hover {
         background: #ffe259;
     }
+
     h2 {
-        text-align: center;
-        font-family: 'Rampart One', cursive;
-        font-size: 50px;
+        text-align : center;
+        font-family: 'Suez One', serif;
+        font-size  : 50px;
     }
 
     .iframe_map {
