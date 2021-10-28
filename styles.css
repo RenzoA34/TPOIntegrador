@@ -86,7 +86,7 @@
         border          : 1px solid #000;
         margin          : 50px;
         padding         : 30px;
-        max-width       : 75vw;
+        width       : 75vw;
         align-items     : center;
     }
 
@@ -122,6 +122,12 @@
     .main_content {
         display        : flex;
         justify-content: center;
+    }
+
+    .description_container {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
     }
 
     .input_config {
@@ -167,7 +173,21 @@
     }
 
     .img_container {
-        max-width: 75vw;
+        max-width                : 75vw;
+        animation-name           : animationImage;
+        animation-duration       : 1.5s;
+        animation-timing-function: linear;
+    }
+
+    @keyframes animationImage {
+        0% {
+            width: 0px;
+        }
+
+        100% {
+            width: 75vw;
+        }
+
     }
 
     .img_container_inside {
@@ -182,6 +202,7 @@
         text-align : center;
         font-family: 'Suez One', serif;
         font-size  : 30px;
+        
     }
 
     #h4_interiores {
@@ -414,8 +435,11 @@
     }
 
     .img_container {
-        width     : 65vw;
-        max-height: 75vw;
+        width                    : 65vw;
+        max-height               : 75vw;
+        animation-name           : animationImage;
+        animation-duration       : 1.5s;
+        animation-timing-function: linear;
     }
 
     footer {
@@ -448,6 +472,18 @@
         flex-direction: row;
         flex-wrap     : nowrap;
         padding-left  : 15px;
+    }
+
+
+    @keyframes animationImage {
+        0% {
+            width: 0px;
+        }
+
+        100% {
+            width: 65vw;
+        }
+
     }
 }
 
@@ -678,5 +714,23 @@
         flex-direction: row;
         flex-wrap     : nowrap;
         padding-left  : 15px;
+    }
+
+    .img_container {
+        width                    : 470px;
+        animation-name           : animationImage;
+        animation-duration       : 1.5s;
+        animation-timing-function: linear;
+    }
+
+    @keyframes animationImage {
+        0% {
+            width: 0px;
+        }
+
+        100% {
+            width: 470px
+        }
+
     }
 }
